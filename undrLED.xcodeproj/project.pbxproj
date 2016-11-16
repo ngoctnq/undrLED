@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4261F371DDAD86400B3FE56 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4261F321DDAD86400B3FE56 /* ysocket.swift */; };
+		F4261F381DDAD86400B3FE56 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = F4261F331DDAD86400B3FE56 /* ytcpsocket.c */; };
+		F4261F391DDAD86400B3FE56 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4261F341DDAD86400B3FE56 /* ytcpsocket.swift */; };
+		F4261F3A1DDAD86400B3FE56 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = F4261F351DDAD86400B3FE56 /* yudpsocket.c */; };
+		F4261F3B1DDAD86400B3FE56 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4261F361DDAD86400B3FE56 /* yudpsocket.swift */; };
+		F4CF64D41DDABD9200FA16CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF64D31DDABD9200FA16CE /* AppDelegate.swift */; };
+		F4CF64D61DDABD9200FA16CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF64D51DDABD9200FA16CE /* ViewController.swift */; };
+		F4CF64D91DDABD9200FA16CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CF64D71DDABD9200FA16CE /* Main.storyboard */; };
+		F4CF64DC1DDABD9200FA16CE /* undrLED.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4CF64DA1DDABD9200FA16CE /* undrLED.xcdatamodeld */; };
+		F4CF64DE1DDABD9200FA16CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CF64DD1DDABD9200FA16CE /* Assets.xcassets */; };
+		F4CF64E11DDABD9200FA16CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CF64DF1DDABD9200FA16CE /* LaunchScreen.storyboard */; };
+		F4CF64EC1DDABD9200FA16CE /* undrLEDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF64EB1DDABD9200FA16CE /* undrLEDTests.swift */; };
+		F4CF64F71DDABD9200FA16CE /* undrLEDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF64F61DDABD9200FA16CE /* undrLEDUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4CF64E81DDABD9200FA16CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CF64C81DDABD9200FA16CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CF64CF1DDABD9200FA16CE;
+			remoteInfo = undrLED;
+		};
+		F4CF64F31DDABD9200FA16CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CF64C81DDABD9200FA16CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CF64CF1DDABD9200FA16CE;
+			remoteInfo = undrLED;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4261F311DDAD86300B3FE56 /* undrLED-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "undrLED-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4261F321DDAD86400B3FE56 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		F4261F331DDAD86400B3FE56 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		F4261F341DDAD86400B3FE56 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		F4261F351DDAD86400B3FE56 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		F4261F361DDAD86400B3FE56 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		F4CF64D01DDABD9200FA16CE /* undrLED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = undrLED.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CF64D31DDABD9200FA16CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4CF64D51DDABD9200FA16CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4CF64D81DDABD9200FA16CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4CF64DB1DDABD9200FA16CE /* undrLED.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = undrLED.xcdatamodel; sourceTree = "<group>"; };
+		F4CF64DD1DDABD9200FA16CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4CF64E01DDABD9200FA16CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4CF64E21DDABD9200FA16CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CF64E71DDABD9200FA16CE /* undrLEDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = undrLEDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CF64EB1DDABD9200FA16CE /* undrLEDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = undrLEDTests.swift; sourceTree = "<group>"; };
+		F4CF64ED1DDABD9200FA16CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CF64F21DDABD9200FA16CE /* undrLEDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = undrLEDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CF64F61DDABD9200FA16CE /* undrLEDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = undrLEDUITests.swift; sourceTree = "<group>"; };
+		F4CF64F81DDABD9200FA16CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4CF64CD1DDABD9200FA16CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF64E41DDABD9200FA16CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF64EF1DDABD9200FA16CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4CF64C71DDABD9200FA16CE = {
+			isa = PBXGroup;
+			children = (
+				F4CF64D21DDABD9200FA16CE /* undrLED */,
+				F4CF64EA1DDABD9200FA16CE /* undrLEDTests */,
+				F4CF64F51DDABD9200FA16CE /* undrLEDUITests */,
+				F4CF64D11DDABD9200FA16CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CF64D11DDABD9200FA16CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF64D01DDABD9200FA16CE /* undrLED.app */,
+				F4CF64E71DDABD9200FA16CE /* undrLEDTests.xctest */,
+				F4CF64F21DDABD9200FA16CE /* undrLEDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CF64D21DDABD9200FA16CE /* undrLED */ = {
+			isa = PBXGroup;
+			children = (
+				F4261F321DDAD86400B3FE56 /* ysocket.swift */,
+				F4261F331DDAD86400B3FE56 /* ytcpsocket.c */,
+				F4261F341DDAD86400B3FE56 /* ytcpsocket.swift */,
+				F4261F351DDAD86400B3FE56 /* yudpsocket.c */,
+				F4261F361DDAD86400B3FE56 /* yudpsocket.swift */,
+				F4CF64D31DDABD9200FA16CE /* AppDelegate.swift */,
+				F4CF64D51DDABD9200FA16CE /* ViewController.swift */,
+				F4CF64D71DDABD9200FA16CE /* Main.storyboard */,
+				F4CF64DD1DDABD9200FA16CE /* Assets.xcassets */,
+				F4CF64DF1DDABD9200FA16CE /* LaunchScreen.storyboard */,
+				F4CF64E21DDABD9200FA16CE /* Info.plist */,
+				F4CF64DA1DDABD9200FA16CE /* undrLED.xcdatamodeld */,
+				F4261F311DDAD86300B3FE56 /* undrLED-Bridging-Header.h */,
+			);
+			path = undrLED;
+			sourceTree = "<group>";
+		};
+		F4CF64EA1DDABD9200FA16CE /* undrLEDTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF64EB1DDABD9200FA16CE /* undrLEDTests.swift */,
+				F4CF64ED1DDABD9200FA16CE /* Info.plist */,
+			);
+			path = undrLEDTests;
+			sourceTree = "<group>";
+		};
+		F4CF64F51DDABD9200FA16CE /* undrLEDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF64F61DDABD9200FA16CE /* undrLEDUITests.swift */,
+				F4CF64F81DDABD9200FA16CE /* Info.plist */,
+			);
+			path = undrLEDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4CF64CF1DDABD9200FA16CE /* undrLED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CF64FB1DDABD9200FA16CE /* Build configuration list for PBXNativeTarget "undrLED" */;
+			buildPhases = (
+				F4CF64CC1DDABD9200FA16CE /* Sources */,
+				F4CF64CD1DDABD9200FA16CE /* Frameworks */,
+				F4CF64CE1DDABD9200FA16CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = undrLED;
+			productName = undrLED;
+			productReference = F4CF64D01DDABD9200FA16CE /* undrLED.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4CF64E61DDABD9200FA16CE /* undrLEDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CF64FE1DDABD9200FA16CE /* Build configuration list for PBXNativeTarget "undrLEDTests" */;
+			buildPhases = (
+				F4CF64E31DDABD9200FA16CE /* Sources */,
+				F4CF64E41DDABD9200FA16CE /* Frameworks */,
+				F4CF64E51DDABD9200FA16CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CF64E91DDABD9200FA16CE /* PBXTargetDependency */,
+			);
+			name = undrLEDTests;
+			productName = undrLEDTests;
+			productReference = F4CF64E71DDABD9200FA16CE /* undrLEDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4CF64F11DDABD9200FA16CE /* undrLEDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CF65011DDABD9200FA16CE /* Build configuration list for PBXNativeTarget "undrLEDUITests" */;
+			buildPhases = (
+				F4CF64EE1DDABD9200FA16CE /* Sources */,
+				F4CF64EF1DDABD9200FA16CE /* Frameworks */,
+				F4CF64F01DDABD9200FA16CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CF64F41DDABD9200FA16CE /* PBXTargetDependency */,
+			);
+			name = undrLEDUITests;
+			productName = undrLEDUITests;
+			productReference = F4CF64F21DDABD9200FA16CE /* undrLEDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4CF64C81DDABD9200FA16CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Ngoc Tran";
+				TargetAttributes = {
+					F4CF64CF1DDABD9200FA16CE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LN3NGAMFUQ;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					F4CF64E61DDABD9200FA16CE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4CF64CF1DDABD9200FA16CE;
+					};
+					F4CF64F11DDABD9200FA16CE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4CF64CF1DDABD9200FA16CE;
+					};
+				};
+			};
+			buildConfigurationList = F4CF64CB1DDABD9200FA16CE /* Build configuration list for PBXProject "undrLED" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4CF64C71DDABD9200FA16CE;
+			productRefGroup = F4CF64D11DDABD9200FA16CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4CF64CF1DDABD9200FA16CE /* undrLED */,
+				F4CF64E61DDABD9200FA16CE /* undrLEDTests */,
+				F4CF64F11DDABD9200FA16CE /* undrLEDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4CF64CE1DDABD9200FA16CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF64E11DDABD9200FA16CE /* LaunchScreen.storyboard in Resources */,
+				F4CF64DE1DDABD9200FA16CE /* Assets.xcassets in Resources */,
+				F4CF64D91DDABD9200FA16CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF64E51DDABD9200FA16CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF64F01DDABD9200FA16CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4CF64CC1DDABD9200FA16CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4261F391DDAD86400B3FE56 /* ytcpsocket.swift in Sources */,
+				F4CF64D61DDABD9200FA16CE /* ViewController.swift in Sources */,
+				F4CF64DC1DDABD9200FA16CE /* undrLED.xcdatamodeld in Sources */,
+				F4261F371DDAD86400B3FE56 /* ysocket.swift in Sources */,
+				F4CF64D41DDABD9200FA16CE /* AppDelegate.swift in Sources */,
+				F4261F381DDAD86400B3FE56 /* ytcpsocket.c in Sources */,
+				F4261F3B1DDAD86400B3FE56 /* yudpsocket.swift in Sources */,
+				F4261F3A1DDAD86400B3FE56 /* yudpsocket.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF64E31DDABD9200FA16CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF64EC1DDABD9200FA16CE /* undrLEDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF64EE1DDABD9200FA16CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF64F71DDABD9200FA16CE /* undrLEDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4CF64E91DDABD9200FA16CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CF64CF1DDABD9200FA16CE /* undrLED */;
+			targetProxy = F4CF64E81DDABD9200FA16CE /* PBXContainerItemProxy */;
+		};
+		F4CF64F41DDABD9200FA16CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CF64CF1DDABD9200FA16CE /* undrLED */;
+			targetProxy = F4CF64F31DDABD9200FA16CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4CF64D71DDABD9200FA16CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CF64D81DDABD9200FA16CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4CF64DF1DDABD9200FA16CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CF64E01DDABD9200FA16CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4CF64F91DDABD9200FA16CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4CF64FA1DDABD9200FA16CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4CF64FC1DDABD9200FA16CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LN3NGAMFUQ;
+				INFOPLIST_FILE = undrLED/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.underlandian.undrLED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "undrLED/undrLED-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4CF64FD1DDABD9200FA16CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LN3NGAMFUQ;
+				INFOPLIST_FILE = undrLED/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.underlandian.undrLED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "undrLED/undrLED-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F4CF64FF1DDABD9200FA16CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = undrLEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.underlandian.undrLEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/undrLED.app/undrLED";
+			};
+			name = Debug;
+		};
+		F4CF65001DDABD9200FA16CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = undrLEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.underlandian.undrLEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/undrLED.app/undrLED";
+			};
+			name = Release;
+		};
+		F4CF65021DDABD9200FA16CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = undrLEDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.underlandian.undrLEDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = undrLED;
+			};
+			name = Debug;
+		};
+		F4CF65031DDABD9200FA16CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = undrLEDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.underlandian.undrLEDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = undrLED;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4CF64CB1DDABD9200FA16CE /* Build configuration list for PBXProject "undrLED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF64F91DDABD9200FA16CE /* Debug */,
+				F4CF64FA1DDABD9200FA16CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CF64FB1DDABD9200FA16CE /* Build configuration list for PBXNativeTarget "undrLED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF64FC1DDABD9200FA16CE /* Debug */,
+				F4CF64FD1DDABD9200FA16CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CF64FE1DDABD9200FA16CE /* Build configuration list for PBXNativeTarget "undrLEDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF64FF1DDABD9200FA16CE /* Debug */,
+				F4CF65001DDABD9200FA16CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CF65011DDABD9200FA16CE /* Build configuration list for PBXNativeTarget "undrLEDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF65021DDABD9200FA16CE /* Debug */,
+				F4CF65031DDABD9200FA16CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4CF64DA1DDABD9200FA16CE /* undrLED.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4CF64DB1DDABD9200FA16CE /* undrLED.xcdatamodel */,
+			);
+			currentVersion = F4CF64DB1DDABD9200FA16CE /* undrLED.xcdatamodel */;
+			path = undrLED.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4CF64C81DDABD9200FA16CE /* Project object */;
+}
